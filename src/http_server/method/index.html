@@ -1,0 +1,1658 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+        <link rel="canonical" href="https://ponylang.github.io/http_server/src/http_server/method/">
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../../assets/images/logo.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-ponylang-0.2.8">
+    
+    
+      
+        <title>Method - http_server</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/application.b80b25f7.css">
+      
+    
+    
+      <script src="../../../assets/javascripts/modernizr.0b5df86e.js"></script>
+    
+    
+      <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+      
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+          <a href="https://ponylang.github.io/http_server/" title="http_server" class="md-header-nav__button md-logo">
+          
+            <img src="../../../assets/images/logo.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            
+              <span class="md-header-nav__topic">
+                http_server
+              </span>
+              <span class="md-header-nav__topic">
+                Method
+              </span>
+            
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          
+            <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+            
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+          
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <span class="md-nav__button md-logo">
+      
+        <img src="../../../assets/images/logo.png" width="48" height="48">
+      
+    </span>
+    http_server
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../.." title="http_server" class="md-nav__link">
+      http_server
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      package http_server
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        package http_server
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server--index/" title="Package" class="md-nav__link">
+      Package
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-URLPartUser/" title="primitive URLPartUser" class="md-nav__link">
+      primitive URLPartUser
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-URLPartPassword/" title="primitive URLPartPassword" class="md-nav__link">
+      primitive URLPartPassword
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-URLPartHost/" title="primitive URLPartHost" class="md-nav__link">
+      primitive URLPartHost
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-URLPartPath/" title="primitive URLPartPath" class="md-nav__link">
+      primitive URLPartPath
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-URLPartQuery/" title="primitive URLPartQuery" class="md-nav__link">
+      primitive URLPartQuery
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-URLPartFragment/" title="primitive URLPartFragment" class="md-nav__link">
+      primitive URLPartFragment
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-URLPart/" title="type URLPart" class="md-nav__link">
+      type URLPart
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-URLEncode/" title="primitive URLEncode" class="md-nav__link">
+      primitive URLEncode
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-URL/" title="class URL" class="md-nav__link">
+      class URL
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-SyncHandler/" title="interface SyncHandler" class="md-nav__link">
+      interface SyncHandler
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-SyncHandlerWrapper/" title="class SyncHandlerWrapper" class="md-nav__link">
+      class SyncHandlerWrapper
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-Status/" title="interface Status" class="md-nav__link">
+      interface Status
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusContinue/" title="primitive StatusContinue" class="md-nav__link">
+      primitive StatusContinue
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusSwitchingProtocols/" title="primitive StatusSwitchingProtocols" class="md-nav__link">
+      primitive StatusSwitchingProtocols
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusOK/" title="primitive StatusOK" class="md-nav__link">
+      primitive StatusOK
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusCreated/" title="primitive StatusCreated" class="md-nav__link">
+      primitive StatusCreated
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusAccepted/" title="primitive StatusAccepted" class="md-nav__link">
+      primitive StatusAccepted
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusNonAuthoritativeInfo/" title="primitive StatusNonAuthoritativeInfo" class="md-nav__link">
+      primitive StatusNonAuthoritativeInfo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusNoContent/" title="primitive StatusNoContent" class="md-nav__link">
+      primitive StatusNoContent
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusResetContent/" title="primitive StatusResetContent" class="md-nav__link">
+      primitive StatusResetContent
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusPartialContent/" title="primitive StatusPartialContent" class="md-nav__link">
+      primitive StatusPartialContent
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusMultipleChoices/" title="primitive StatusMultipleChoices" class="md-nav__link">
+      primitive StatusMultipleChoices
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusMovedPermanently/" title="primitive StatusMovedPermanently" class="md-nav__link">
+      primitive StatusMovedPermanently
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusFound/" title="primitive StatusFound" class="md-nav__link">
+      primitive StatusFound
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusSeeOther/" title="primitive StatusSeeOther" class="md-nav__link">
+      primitive StatusSeeOther
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusNotModified/" title="primitive StatusNotModified" class="md-nav__link">
+      primitive StatusNotModified
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusUseProxy/" title="primitive StatusUseProxy" class="md-nav__link">
+      primitive StatusUseProxy
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusTemporaryRedirect/" title="primitive StatusTemporaryRedirect" class="md-nav__link">
+      primitive StatusTemporaryRedirect
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusBadRequest/" title="primitive StatusBadRequest" class="md-nav__link">
+      primitive StatusBadRequest
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusUnauthorized/" title="primitive StatusUnauthorized" class="md-nav__link">
+      primitive StatusUnauthorized
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusPaymentRequired/" title="primitive StatusPaymentRequired" class="md-nav__link">
+      primitive StatusPaymentRequired
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusForbidden/" title="primitive StatusForbidden" class="md-nav__link">
+      primitive StatusForbidden
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusNotFound/" title="primitive StatusNotFound" class="md-nav__link">
+      primitive StatusNotFound
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusMethodNotAllowed/" title="primitive StatusMethodNotAllowed" class="md-nav__link">
+      primitive StatusMethodNotAllowed
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusNotAcceptable/" title="primitive StatusNotAcceptable" class="md-nav__link">
+      primitive StatusNotAcceptable
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusProxyAuthRequired/" title="primitive StatusProxyAuthRequired" class="md-nav__link">
+      primitive StatusProxyAuthRequired
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusRequestTimeout/" title="primitive StatusRequestTimeout" class="md-nav__link">
+      primitive StatusRequestTimeout
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusConflict/" title="primitive StatusConflict" class="md-nav__link">
+      primitive StatusConflict
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusGone/" title="primitive StatusGone" class="md-nav__link">
+      primitive StatusGone
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusLengthRequired/" title="primitive StatusLengthRequired" class="md-nav__link">
+      primitive StatusLengthRequired
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusPreconditionFailed/" title="primitive StatusPreconditionFailed" class="md-nav__link">
+      primitive StatusPreconditionFailed
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusRequestEntityTooLarge/" title="primitive StatusRequestEntityTooLarge" class="md-nav__link">
+      primitive StatusRequestEntityTooLarge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusRequestURITooLong/" title="primitive StatusRequestURITooLong" class="md-nav__link">
+      primitive StatusRequestURITooLong
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusUnsupportedMediaType/" title="primitive StatusUnsupportedMediaType" class="md-nav__link">
+      primitive StatusUnsupportedMediaType
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusRequestedRangeNotSatisfiable/" title="primitive StatusRequestedRangeNotSatisfiable" class="md-nav__link">
+      primitive StatusRequestedRangeNotSatisfiable
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusExpectationFailed/" title="primitive StatusExpectationFailed" class="md-nav__link">
+      primitive StatusExpectationFailed
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusTeapot/" title="primitive StatusTeapot" class="md-nav__link">
+      primitive StatusTeapot
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusPreconditionRequired/" title="primitive StatusPreconditionRequired" class="md-nav__link">
+      primitive StatusPreconditionRequired
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusTooManyRequests/" title="primitive StatusTooManyRequests" class="md-nav__link">
+      primitive StatusTooManyRequests
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusRequestHeaderFieldsTooLarge/" title="primitive StatusRequestHeaderFieldsTooLarge" class="md-nav__link">
+      primitive StatusRequestHeaderFieldsTooLarge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusUnavailableForLegalReasons/" title="primitive StatusUnavailableForLegalReasons" class="md-nav__link">
+      primitive StatusUnavailableForLegalReasons
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusInternalServerError/" title="primitive StatusInternalServerError" class="md-nav__link">
+      primitive StatusInternalServerError
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusNotImplemented/" title="primitive StatusNotImplemented" class="md-nav__link">
+      primitive StatusNotImplemented
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusBadGateway/" title="primitive StatusBadGateway" class="md-nav__link">
+      primitive StatusBadGateway
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusServiceUnavailable/" title="primitive StatusServiceUnavailable" class="md-nav__link">
+      primitive StatusServiceUnavailable
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusGatewayTimeout/" title="primitive StatusGatewayTimeout" class="md-nav__link">
+      primitive StatusGatewayTimeout
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusHTTPVersionNotSupported/" title="primitive StatusHTTPVersionNotSupported" class="md-nav__link">
+      primitive StatusHTTPVersionNotSupported
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-StatusNetworkAuthenticationRequired/" title="primitive StatusNetworkAuthenticationRequired" class="md-nav__link">
+      primitive StatusNetworkAuthenticationRequired
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-Session/" title="interface Session" class="md-nav__link">
+      interface Session
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-ServerNotify/" title="interface ServerNotify" class="md-nav__link">
+      interface ServerNotify
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-ServerConfig/" title="class ServerConfig" class="md-nav__link">
+      class ServerConfig
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-Server/" title="actor Server" class="md-nav__link">
+      actor Server
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-Response/" title="interface Response" class="md-nav__link">
+      interface Response
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-Responses/" title="primitive Responses" class="md-nav__link">
+      primitive Responses
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-ResponseBuilder/" title="interface ResponseBuilder" class="md-nav__link">
+      interface ResponseBuilder
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-ResponseBuilderHeaders/" title="interface ResponseBuilderHeaders" class="md-nav__link">
+      interface ResponseBuilderHeaders
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-ResponseBuilderBody/" title="interface ResponseBuilderBody" class="md-nav__link">
+      interface ResponseBuilderBody
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-BuildableResponse/" title="class BuildableResponse" class="md-nav__link">
+      class BuildableResponse
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-TooLarge/" title="primitive TooLarge" class="md-nav__link">
+      primitive TooLarge
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-UnknownMethod/" title="primitive UnknownMethod" class="md-nav__link">
+      primitive UnknownMethod
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-InvalidURI/" title="primitive InvalidURI" class="md-nav__link">
+      primitive InvalidURI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-InvalidVersion/" title="primitive InvalidVersion" class="md-nav__link">
+      primitive InvalidVersion
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-InvalidContentLength/" title="primitive InvalidContentLength" class="md-nav__link">
+      primitive InvalidContentLength
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-InvalidTransferCoding/" title="primitive InvalidTransferCoding" class="md-nav__link">
+      primitive InvalidTransferCoding
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-InvalidChunk/" title="primitive InvalidChunk" class="md-nav__link">
+      primitive InvalidChunk
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-RequestParseError/" title="type RequestParseError" class="md-nav__link">
+      type RequestParseError
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-NeedMore/" title="primitive NeedMore" class="md-nav__link">
+      primitive NeedMore
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-ParseReturn/" title="type ParseReturn" class="md-nav__link">
+      type ParseReturn
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-Chunked/" title="primitive Chunked" class="md-nav__link">
+      primitive Chunked
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-HTTP11RequestHandler/" title="interface HTTP11RequestHandler" class="md-nav__link">
+      interface HTTP11RequestHandler
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-HTTP11RequestParser/" title="class HTTP11RequestParser" class="md-nav__link">
+      class HTTP11RequestParser
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-CompareCaseInsensitive/" title="primitive CompareCaseInsensitive" class="md-nav__link">
+      primitive CompareCaseInsensitive
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-RequestID/" title="type RequestID" class="md-nav__link">
+      type RequestID
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-RequestIDs/" title="primitive RequestIDs" class="md-nav__link">
+      primitive RequestIDs
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-HTTP11/" title="primitive HTTP11" class="md-nav__link">
+      primitive HTTP11
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-HTTP10/" title="primitive HTTP10" class="md-nav__link">
+      primitive HTTP10
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-HTTP09/" title="primitive HTTP09" class="md-nav__link">
+      primitive HTTP09
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-Version/" title="type Version" class="md-nav__link">
+      type Version
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-Request/" title="interface Request" class="md-nav__link">
+      interface Request
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-BuildableRequest/" title="class BuildableRequest" class="md-nav__link">
+      class BuildableRequest
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-MimeTypes/" title="primitive MimeTypes" class="md-nav__link">
+      primitive MimeTypes
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-Method/" title="interface Method" class="md-nav__link">
+      interface Method
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-CONNECT/" title="primitive CONNECT" class="md-nav__link">
+      primitive CONNECT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-GET/" title="primitive GET" class="md-nav__link">
+      primitive GET
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-DELETE/" title="primitive DELETE" class="md-nav__link">
+      primitive DELETE
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-HEAD/" title="primitive HEAD" class="md-nav__link">
+      primitive HEAD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-OPTIONS/" title="primitive OPTIONS" class="md-nav__link">
+      primitive OPTIONS
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-PATCH/" title="primitive PATCH" class="md-nav__link">
+      primitive PATCH
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-POST/" title="primitive POST" class="md-nav__link">
+      primitive POST
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-PUT/" title="primitive PUT" class="md-nav__link">
+      primitive PUT
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-TRACE/" title="primitive TRACE" class="md-nav__link">
+      primitive TRACE
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-Methods/" title="primitive Methods" class="md-nav__link">
+      primitive Methods
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-Header/" title="type Header" class="md-nav__link">
+      type Header
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-Headers/" title="class Headers" class="md-nav__link">
+      class Headers
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-Handler/" title="interface Handler" class="md-nav__link">
+      interface Handler
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-HandlerFactory/" title="interface HandlerFactory" class="md-nav__link">
+      interface HandlerFactory
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-HandlerWithoutContext/" title="interface HandlerWithoutContext" class="md-nav__link">
+      interface HandlerWithoutContext
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../../http_server-SimpleHandlerFactory/" title="primitive SimpleHandlerFactory" class="md-nav__link">
+      primitive SimpleHandlerFactory
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  <h1>Method</h1>
+                
+                <pre><code class="language-pony-full-source">interface val Method is (Equatable[Method] &amp; Stringable)
+  &quot;&quot;&quot;
+  HTTP method
+
+  See: https://tools.ietf.org/html/rfc2616#section-5.1.1
+  &quot;&quot;&quot;
+  fun repr(): String val
+  fun string(): String iso^
+  fun eq(o: Method): Bool
+
+primitive CONNECT is Method
+  fun repr(): String val =&gt; &quot;CONNECT&quot;
+  fun string(): String iso^ =&gt; repr().clone()
+  fun eq(o: Method): Bool =&gt; o is this
+
+primitive GET is Method
+  fun repr(): String val =&gt; &quot;GET&quot;
+  fun string(): String iso^ =&gt; repr().clone()
+  fun eq(o: Method): Bool =&gt; o is this
+
+primitive DELETE is Method
+  fun repr(): String =&gt; &quot;DELETE&quot;
+  fun string(): String iso^ =&gt; repr().clone()
+  fun eq(o: Method): Bool =&gt; o is this
+
+primitive HEAD is Method
+  fun repr(): String =&gt; &quot;HEAD&quot;
+  fun string(): String iso^ =&gt; repr().clone()
+  fun eq(o: Method): Bool =&gt; o is this
+
+primitive OPTIONS is Method
+  fun repr(): String =&gt; &quot;OPTIONS&quot;
+  fun string(): String iso^ =&gt; repr().clone()
+  fun eq(o: Method): Bool =&gt; o is this
+
+primitive PATCH is Method
+  fun repr(): String =&gt; &quot;PATCH&quot;
+  fun string(): String iso^ =&gt; repr().clone()
+  fun eq(o: Method): Bool =&gt; o is this
+
+primitive POST is Method
+  fun repr(): String =&gt; &quot;POST&quot;
+  fun string(): String iso^ =&gt; repr().clone()
+  fun eq(o: Method): Bool =&gt; o is this
+
+primitive PUT is Method
+  fun repr(): String =&gt; &quot;PUT&quot;
+  fun string(): String iso^ =&gt; repr().clone()
+  fun eq(o: Method): Bool =&gt; o is this
+
+primitive TRACE is Method
+  fun repr(): String =&gt; &quot;TRACE&quot;
+  fun string(): String iso^ =&gt; repr().clone()
+  fun eq(o: Method): Bool =&gt; o is this
+
+primitive Methods
+  fun parse(maybe_method: ReadSeq[U8]): (Method | None) =&gt;
+    if _Equality.readseqs(maybe_method, GET.repr()) then GET
+    elseif _Equality.readseqs(maybe_method, PUT.repr()) then PUT
+    elseif _Equality.readseqs(maybe_method, PATCH.repr()) then PUT
+    elseif _Equality.readseqs(maybe_method, POST.repr()) then POST
+    elseif _Equality.readseqs(maybe_method, HEAD.repr()) then HEAD
+    elseif _Equality.readseqs(maybe_method, DELETE.repr()) then DELETE
+    elseif _Equality.readseqs(maybe_method, CONNECT.repr()) then CONNECT
+    elseif _Equality.readseqs(maybe_method, OPTIONS.repr()) then OPTIONS
+    elseif _Equality.readseqs(maybe_method, TRACE.repr()) then TRACE
+    end
+
+
+primitive _Equality
+  fun readseqs(left: ReadSeq[U8], right: ReadSeq[U8]): Bool =&gt;
+    let size = left.size()
+    if size != right.size() then
+      false
+    else
+      var ri: USize = 0
+      try
+        // TODO: vectorize if possible
+        while ri &lt; size do
+          if left(ri)? != right(ri)? then
+            return false
+          end
+          ri = ri + 1
+        end
+        true
+      else
+        false
+      end
+    end
+
+
+</code></pre>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+        
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+    <script src="../../../assets/javascripts/application.cb37bb38.js"></script>
+      
+      <script>app.initialize({version:"1.1.2",url:{base:"../../.."}})</script>
+      
+    
+    
+      
+    
+  </body>
+</html>
