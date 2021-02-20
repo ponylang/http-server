@@ -2015,7 +2015,7 @@ set the status and then the headers, not the other way around. But it makes for 
 <hr />
 <h2 id="public-functions">Public Functions<a class="headerlink" href="#public-functions" title="Permanent link">&para;</a></h2>
 <h3 id="version">version<a class="headerlink" href="#version" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L259">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L260">[Source]</a></span></p>
 <pre><code class="language-pony">fun box version()
 : ((HTTP09 val | HTTP10 val | HTTP11 val) &amp; _Version val)
 </code></pre>
@@ -2025,7 +2025,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="set_version">set_version<a class="headerlink" href="#set_version" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L260">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L262">[Source]</a></span></p>
 <pre><code class="language-pony">fun ref set_version(
   v: ((HTTP09 val | HTTP10 val | HTTP11 val) &amp; _Version val))
 : BuildableResponse ref
@@ -2040,7 +2040,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="status">status<a class="headerlink" href="#status" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L264">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L266">[Source]</a></span></p>
 <pre><code class="language-pony">fun box status()
 : Status val
 </code></pre>
@@ -2050,7 +2050,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="set_status">set_status<a class="headerlink" href="#set_status" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L265">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L268">[Source]</a></span></p>
 <pre><code class="language-pony">fun ref set_status(
   s: Status val)
 : BuildableResponse ref
@@ -2065,7 +2065,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="header">header<a class="headerlink" href="#header" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L269">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L272">[Source]</a></span></p>
 <pre><code class="language-pony">fun box header(
   name: String val)
 : (String val | None val)
@@ -2080,7 +2080,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="headers">headers<a class="headerlink" href="#headers" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L270">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L274">[Source]</a></span></p>
 <pre><code class="language-pony">fun box headers()
 : Iterator[(String val , String val)] ref
 </code></pre>
@@ -2090,7 +2090,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="add_header">add_header<a class="headerlink" href="#add_header" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L271">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L276">[Source]</a></span></p>
 <pre><code class="language-pony">fun ref add_header(
   name: String val,
   value: String val)
@@ -2107,7 +2107,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="set_header">set_header<a class="headerlink" href="#set_header" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L274">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L280">[Source]</a></span></p>
 <pre><code class="language-pony">fun ref set_header(
   name: String val,
   value: String val)
@@ -2124,7 +2124,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="clear_headers">clear_headers<a class="headerlink" href="#clear_headers" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L277">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L284">[Source]</a></span></p>
 <pre><code class="language-pony">fun ref clear_headers()
 : BuildableResponse ref
 </code></pre>
@@ -2134,7 +2134,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="transfer_coding">transfer_coding<a class="headerlink" href="#transfer_coding" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L281">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L288">[Source]</a></span></p>
 <pre><code class="language-pony">fun box transfer_coding()
 : (Chunked val | None val)
 </code></pre>
@@ -2144,7 +2144,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="set_transfer_coding">set_transfer_coding<a class="headerlink" href="#set_transfer_coding" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L282">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L290">[Source]</a></span></p>
 <pre><code class="language-pony">fun ref set_transfer_coding(
   c: (Chunked val | None val))
 : BuildableResponse ref
@@ -2159,7 +2159,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="content_length">content_length<a class="headerlink" href="#content_length" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L286">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L294">[Source]</a></span></p>
 <pre><code class="language-pony">fun box content_length()
 : (USize val | None val)
 </code></pre>
@@ -2169,7 +2169,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="set_content_length">set_content_length<a class="headerlink" href="#set_content_length" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L287">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L296">[Source]</a></span></p>
 <pre><code class="language-pony">fun ref set_content_length(
   cl: (USize val | None val))
 : BuildableResponse ref
@@ -2184,7 +2184,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="array">array<a class="headerlink" href="#array" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L297">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L306">[Source]</a></span></p>
 <pre><code class="language-pony">fun box array()
 : Array[U8 val] iso^
 </code></pre>
@@ -2194,7 +2194,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="to_bytes">to_bytes<a class="headerlink" href="#to_bytes" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L323">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L332">[Source]</a></span></p>
 <pre><code class="language-pony">fun box to_bytes()
 : ByteArrays val
 </code></pre>
@@ -2204,7 +2204,7 @@ set the status and then the headers, not the other way around. But it makes for 
 </ul>
 <hr />
 <h3 id="values">values<a class="headerlink" href="#values" title="Permanent link">&para;</a></h3>
-<p><span class="source-link"><a href="../src/http_server/response/#L333">[Source]</a></span></p>
+<p><span class="source-link"><a href="../src/http_server/response/#L342">[Source]</a></span></p>
 <p>Make this a very inefficient ByteSeqIter.
 Rather use <code>array()</code> if you care about performance.</p>
 <pre><code class="language-pony">fun box values()
