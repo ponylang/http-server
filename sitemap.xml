@@ -1,443 +1,443 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://ponylang.github.io/http_server/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server--index/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-URLPartUser/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-URLPartPassword/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-URLPartHost/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-URLPartPath/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-URLPartQuery/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-URLPartFragment/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-URLPart/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-URLEncode/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-URL/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-SyncHandler/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-SyncHandlerWrapper/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-Status/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusContinue/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusSwitchingProtocols/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusOK/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusCreated/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusAccepted/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusNonAuthoritativeInfo/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusNoContent/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusResetContent/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusPartialContent/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusMultipleChoices/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusMovedPermanently/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusFound/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusSeeOther/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusNotModified/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusUseProxy/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusTemporaryRedirect/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusBadRequest/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusUnauthorized/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusPaymentRequired/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusForbidden/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusNotFound/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusMethodNotAllowed/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusNotAcceptable/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusProxyAuthRequired/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusRequestTimeout/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusConflict/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusGone/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusLengthRequired/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusPreconditionFailed/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusRequestEntityTooLarge/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusRequestURITooLong/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusUnsupportedMediaType/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusRequestedRangeNotSatisfiable/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusExpectationFailed/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusTeapot/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusPreconditionRequired/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusTooManyRequests/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusRequestHeaderFieldsTooLarge/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusUnavailableForLegalReasons/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusInternalServerError/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusNotImplemented/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusBadGateway/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusServiceUnavailable/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusGatewayTimeout/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusHTTPVersionNotSupported/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-StatusNetworkAuthenticationRequired/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-Session/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-ServerNotify/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-ServerConfig/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-Server/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-Response/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-Responses/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-ResponseBuilder/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-ResponseBuilderHeaders/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-ResponseBuilderBody/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-BuildableResponse/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-TooLarge/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-UnknownMethod/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-InvalidURI/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-InvalidVersion/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-InvalidContentLength/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-InvalidTransferCoding/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-InvalidChunk/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-RequestParseError/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-NeedMore/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-ParseReturn/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-Chunked/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-HTTP11RequestHandler/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-HTTP11RequestParser/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-CompareCaseInsensitive/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-RequestID/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-RequestIDs/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-HTTP11/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-HTTP10/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-HTTP09/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-Version/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-Request/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-BuildableRequest/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-MimeTypes/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-Method/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-CONNECT/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-GET/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-DELETE/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-HEAD/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-OPTIONS/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-PATCH/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-POST/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-PUT/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-TRACE/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-Methods/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-Header/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-Headers/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-Handler/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-HandlerFactory/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-HandlerWithoutContext/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://ponylang.github.io/http_server/http_server-SimpleHandlerFactory/</loc>
-     <lastmod>2021-02-20</lastmod>
+     <lastmod>2021-04-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
